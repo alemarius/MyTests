@@ -1,0 +1,19 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "CRS.AlSubFolderName": "Source",
+  "CRS.ObjectNameSuffix": " TESTS",
+  "CRS.FileNamePattern": "<ObjectTypeShortUpper><ObjectId>.<ObjectNameShort>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectTypeShortUpper><BaseId>.EXT<ObjectId>.<ObjectNameShort>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectTypeShortUpper><BaseId>.EXT<ObjectId>.<ObjectNameShort>.al",
+  "al.enableCodeAnalysis": true,
+  "al.enableCodeActions": true,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${PerTenantExtensionCop}",
+    "${UICop}"
+  ],
+  "alOutline.autoGenerateFileDirectory": "\"Source\\<ObjectType>\"",
+  "al.ruleSetPath": ".codeAnalysis\\tecman.ruleset.json",
+  "alVarHelper.ignoreALSuffix": "TESTS",
+  "editor.minimap.scale": 3
+}

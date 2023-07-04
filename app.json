@@ -1,0 +1,38 @@
+{
+  "id": "859371aa-1a85-4715-b369-1eb90d263c07",
+  "name": "MyTests",
+  "publisher": "AleMarius",
+  "version": "1.0.0.0",
+  "brief": "My Test Library",
+  "description": "My Test Library",
+  "dependencies": [  {
+    "id":"5d86850b-0d76-4eca-bd7b-951ad998e997",
+    "publisher":"Microsoft",
+    "name":"Tests-TestLibraries",
+    "version":"17.0.0.0"
+    },
+    {
+    "id":"23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+    "publisher":"Microsoft",
+    "name":"Test Runner",
+    "version":"17.0.0.0"
+    }],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 99000,
+      "to": 99900
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "TranslationFile"
+  ]
+}
